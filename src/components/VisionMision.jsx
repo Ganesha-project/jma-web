@@ -3,6 +3,45 @@ import { useState } from "react";
 import { AiOutlineRadarChart } from "react-icons/ai";
 import { SlTarget } from "react-icons/sl";
 
+export const metadata = {
+    title: "Vision & Mission - JMA Indonesia",
+    description: "Discover the vision and mission of JMA Indonesia in the maritime export industry. Learn about our commitment to providing high-quality, sustainable products and contributing positively to the economy and the environment.",
+    keywords: "JMA Indonesia, vision, mission, maritime export industry, high-quality products, sustainable products, economy, environment",
+    url: "https://jmaindonesia.com",
+    image: "https://example.com/vision-mission-image.jpg", // Replace with actual vision and mission image URL
+    author: "JMA Indonesia",
+    siteName: "JMA Indonesia",
+    twitterUsername: "@jmaindonesia",
+    facebookAppID: "1234567890",
+    type: "website",
+    locale: "en_US",
+    canonical: "https://jmaindonesia.com",
+    publishedTime: "2024-02-28T00:00:00Z",
+    modifiedTime: "2024-02-28T00:00:00Z",
+    section: "Vision & Mission",
+    tags: ["JMA Indonesia", "vision", "mission", "maritime export industry", "high-quality products", "sustainable products", "economy", "environment"],
+    openGraph: {
+        title: "Vision & Mission - JMA Indonesia",
+        description: "Discover the vision and mission of JMA Indonesia in the maritime export industry. Learn about our commitment to providing high-quality, sustainable products and contributing positively to the economy and the environment.",
+        url: "https://jmaindonesia.com",
+        type: "website",
+        locale: "en_US",
+        site_name: "JMA Indonesia",
+        images: [
+            {
+                url: "https://example.com/vision-mission-image.jpg", // Replace with actual vision and mission image URL
+                alt: "JMA Indonesia Vision & Mission",
+                width: 1200,
+                height: 630
+            }
+        ]
+    },
+    twitter: {
+        cardType: "summary_large_image",
+        handle: "@jmaindonesia"
+    }
+};
+
 export const VisionMission = () => {
     const [toggle, setToggle] = useState(1);
 
@@ -11,7 +50,7 @@ export const VisionMission = () => {
     }
     return (
         <>
-            <div id="vision-mission"/>
+            <div id="vision-mission" />
             <section className="lg:mx-32 mx-5 mt-20">
                 <div className="relative w-[100$]">
                     <img

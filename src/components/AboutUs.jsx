@@ -3,6 +3,46 @@ import { GrTechnology } from "react-icons/gr";
 import { TbClockStar } from "react-icons/tb";
 import { FaHandHoldingHeart } from "react-icons/fa";
 
+export const metadata = {
+    title: "Marine Biota Export Company - CV Jelita Makmur Abadi",
+    description: "CV Jelita Makmur Abadi is a leading marine biota export company based in Indonesia. We specialize in exporting premium quality seaweed and sea cucumbers worldwide.",
+    keywords: "marine biota export, CV Jelita Makmur Abadi, seaweed export, sea cucumbers export, Indonesia export company, premium quality marine products",
+    url: "https://jmaindonesia.com/about-us",
+    image: "https://images.pexels.com/photos/8849634/pexels-photo-8849634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    author: "CV Jelita Makmur Abadi",
+    siteName: "CV Jelita Makmur Abadi",
+    twitterUsername: "@jmaindonesia",
+    facebookAppID: "1234567890",
+    type: "website",
+    locale: "en_US",
+    canonical: "https://jmaindonesia.com/about-us",
+    publishedTime: "2024-02-28T00:00:00Z",
+    modifiedTime: "2024-02-28T00:00:00Z",
+    section: "About Us",
+    tags: ["marine biota", "seaweed export", "sea cucumbers export", "premium quality products", "Indonesia export"],
+    openGraph: {
+      title: "Marine Biota Export Company - CV Jelita Makmur Abadi",
+      description: "CV Jelita Makmur Abadi is a leading marine biota export company based in Indonesia. We specialize in exporting premium quality seaweed and sea cucumbers worldwide.",
+      url: "https://jmaindonesia.com/about-us",
+      type: "website",
+      locale: "en_US",
+      site_name: "CV Jelita Makmur Abadi",
+      images: [
+        {
+          url: "https://images.pexels.com/photos/8849634/pexels-photo-8849634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          alt: "Seaweed and Sea Cucumbers",
+          width: 1260,
+          height: 750
+        }
+      ]
+    },
+    twitter: {
+      cardType: "summary_large_image",
+      handle: "@jmaindonesia"
+    }
+  };
+  
+
 export const AboutUs = () => {
     return (
         <>

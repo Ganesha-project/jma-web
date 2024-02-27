@@ -1,3 +1,43 @@
+export const metadata = {
+    title: "Explore Our Premium Marine Products - JMA Indonesia",
+    description: "Discover JMA Indonesia's high-quality marine products including seaweed and sea cucumbers. Explore our range of premium exports and find the best marine biota for your needs.",
+    keywords: "JMA Indonesia, marine products, seaweed, sea cucumbers, marine biota, premium exports",
+    url: "https://jmaindonesia.com",
+    image: "https://example.com/products-image.jpg", // Replace with actual products image URL
+    author: "JMA Indonesia",
+    siteName: "JMA Indonesia",
+    twitterUsername: "@jmaindonesia",
+    facebookAppID: "1234567890",
+    type: "website",
+    locale: "en_US",
+    canonical: "https://jmaindonesia.com",
+    publishedTime: "2024-02-28T00:00:00Z",
+    modifiedTime: "2024-02-28T00:00:00Z",
+    section: "Products",
+    tags: ["JMA Indonesia", "marine products", "seaweed", "sea cucumbers", "marine biota", "premium exports"],
+    openGraph: {
+        title: "Explore Our Premium Marine Products - JMA Indonesia",
+        description: "Discover JMA Indonesia's high-quality marine products including seaweed and sea cucumbers. Explore our range of premium exports and find the best marine biota for your needs.",
+        url: "https://jmaindonesia.com",
+        type: "website",
+        locale: "en_US",
+        site_name: "JMA Indonesia",
+        images: [
+            {
+                url: "https://example.com/products-image.jpg", // Replace with actual products image URL
+                alt: "JMA Indonesia Products",
+                width: 1200,
+                height: 630
+            }
+        ]
+    },
+    twitter: {
+        cardType: "summary_large_image",
+        handle: "@jmaindonesia"
+    }
+};
+
+
 export const Products = () => {
     return (
         <>

@@ -1,5 +1,45 @@
 import Image from "next/image"
 
+export const metadata = {
+    title: "JMA Indonesia - Quality Marine Biota Export Company",
+    description: "Discover JMA Indonesia, a leading marine biota export company offering premium products like seaweed and sea cucumbers. Explore our vision, products, and contact information.",
+    keywords: "JMA Indonesia, marine biota export, seaweed export, sea cucumber export, marine products",
+    url: "https://jmaindonesia.com",
+    image: "https://example.com/footer-image.jpg", // Replace with actual footer image URL
+    author: "JMA Indonesia",
+    siteName: "JMA Indonesia",
+    twitterUsername: "@jmaindonesia",
+    facebookAppID: "1234567890",
+    type: "website",
+    locale: "en_US",
+    canonical: "https://jmaindonesia.com",
+    publishedTime: "2024-02-28T00:00:00Z",
+    modifiedTime: "2024-02-28T00:00:00Z",
+    section: "Footer",
+    tags: ["JMA Indonesia", "marine biota export", "marine products", "footer"],
+    openGraph: {
+        title: "JMA Indonesia - Quality Marine Biota Export Company",
+        description: "Discover JMA Indonesia, a leading marine biota export company offering premium products like seaweed and sea cucumbers. Explore our vision, products, and contact information.",
+        url: "https://jmaindonesia.com",
+        type: "website",
+        locale: "en_US",
+        site_name: "JMA Indonesia",
+        images: [
+            {
+                url: "https://example.com/footer-image.jpg", // Replace with actual footer image URL
+                alt: "JMA Indonesia Footer",
+                width: 1200,
+                height: 630
+            }
+        ]
+    },
+    twitter: {
+        cardType: "summary_large_image",
+        handle: "@jmaindonesia"
+    }
+};
+
+
 export const Footer = () => {
     return (
         <>

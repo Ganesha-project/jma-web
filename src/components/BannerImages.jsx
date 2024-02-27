@@ -1,6 +1,44 @@
 import { ScrollAnimation } from "./ScrollAnimation"
 import { IoArrowForwardCircle } from "react-icons/io5";
 
+export const metadata = {
+    title: "Explore High-Quality Marine Products - CV Jelita Makmur Abadi",
+    description: "Discover a range of premium marine products from CV Jelita Makmur Abadi. Explore our collection of high-quality seaweed and sea cucumber images.",
+    keywords: "marine products, premium quality, seaweed images, sea cucumber images, marine biota",
+    url: "https://jmaindonesia.com",
+    image: "https://res.cloudinary.com/dzrh2ogbn/image/upload/v1709030711/seaweed.jpg",
+    author: "CV Jelita Makmur Abadi",
+    siteName: "CV Jelita Makmur Abadi",
+    twitterUsername: "@jmaindonesia",
+    facebookAppID: "1234567890",
+    type: "website",
+    locale: "en_US",
+    canonical: "https://jmaindonesia.com",
+    publishedTime: "2024-02-28T00:00:00Z",
+    modifiedTime: "2024-02-28T00:00:00Z",
+    section: "Home",
+    tags: ["marine products", "premium quality", "seaweed images", "sea cucumber images", "marine biota"],
+    openGraph: {
+      title: "Explore High-Quality Marine Products - CV Jelita Makmur Abadi",
+      description: "Discover a range of premium marine products from CV Jelita Makmur Abadi. Explore our collection of high-quality seaweed and sea cucumber images.",
+      url: "https://jmaindonesia.com",
+      type: "website",
+      locale: "en_US",
+      site_name: "CV Jelita Makmur Abadi",
+      images: [
+        {
+          url: "https://res.cloudinary.com/dzrh2ogbn/image/upload/v1709030711/seaweed.jpg",
+          alt: "Seaweed and Sea Cucumber Images",
+          width: 1200,
+          height: 630
+        }
+      ]
+    },
+    twitter: {
+      cardType: "summary_large_image",
+      handle: "@jmaindonesia"
+    }
+  };  
 
 export const BannerImages = () => {
     const data = [
@@ -45,7 +83,7 @@ export const BannerImages = () => {
                             loading="lazy"
                             className="lg:h-[56lvh] w-full object-cover rounded-lg "
                             src={'https://res.cloudinary.com/dzrh2ogbn/image/upload/v1709030711/seaweed.jpg'}
-                            alt=""
+                            alt="seaweed-jmaindonesia"
                         />
                     </a>
                     <div className="carousel flex lg:flex-row gap-4 h-[30lvh] md:h-[40lvh] rounded-lg">

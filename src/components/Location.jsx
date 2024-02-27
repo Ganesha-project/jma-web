@@ -1,4 +1,44 @@
+export const metadata = {
+    title: "Find Us - Visit JMA Indonesia's Office Location",
+    description: "Locate JMA Indonesia's office address and find us easily with the interactive map. Visit us at Jl. Sarappo No.100A, RT.001/RW.01, Butung, Kec. Wajo, Kota Makassar, Sulawesi Selatan 90173.",
+    keywords: "JMA Indonesia, office location, address, map, Sulawesi Selatan",
+    url: "https://jmaindonesia.com",
+    image: "https://example.com/location-image.jpg", // Replace with actual location image URL
+    author: "JMA Indonesia",
+    siteName: "JMA Indonesia",
+    twitterUsername: "@jmaindonesia",
+    facebookAppID: "1234567890",
+    type: "website",
+    locale: "en_US",
+    canonical: "https://jmaindonesia.com",
+    publishedTime: "2024-02-28T00:00:00Z",
+    modifiedTime: "2024-02-28T00:00:00Z",
+    section: "Location",
+    tags: ["JMA Indonesia", "office location", "address", "map", "Sulawesi Selatan"],
+    openGraph: {
+      title: "Find Us - Visit JMA Indonesia's Office Location",
+      description: "Locate JMA Indonesia's office address and find us easily with the interactive map. Visit us at Jl. Sarappo No.100A, RT.001/RW.01, Butung, Kec. Wajo, Kota Makassar, Sulawesi Selatan 90173.",
+      url: "https://jmaindonesia.com",
+      type: "website",
+      locale: "en_US",
+      site_name: "JMA Indonesia",
+      images: [
+        {
+          url: "https://example.com/location-image.jpg", // Replace with actual location image URL
+          alt: "JMA Indonesia Location",
+          width: 1200,
+          height: 630
+        }
+      ]
+    },
+    twitter: {
+      cardType: "summary_large_image",
+      handle: "@jmaindonesia"
+    }
+  };
+  
 export const Location = () => {
+
     return (
         <>
             <div id="location" />

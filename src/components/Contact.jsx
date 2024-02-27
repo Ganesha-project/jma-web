@@ -1,5 +1,45 @@
 import { RiWhatsappFill, RiMailAddFill } from "react-icons/ri"
 
+export const metadata = {
+    title: "Contact CV Jelita Makmur Abadi - Reach Us via WhatsApp or Email",
+    description: "Contact CV Jelita Makmur Abadi for inquiries and consultations. Reach us conveniently via WhatsApp or Email to discuss your marine biota export needs.",
+    keywords: "CV Jelita Makmur Abadi, marine biota export, WhatsApp contact, Email contact, marine biota inquiries",
+    url: "https://jmaindonesia.com",
+    image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=2755&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    author: "CV Jelita Makmur Abadi",
+    siteName: "CV Jelita Makmur Abadi",
+    twitterUsername: "@jmaindonesia",
+    facebookAppID: "1234567890",
+    type: "website",
+    locale: "en_US",
+    canonical: "https://jmaindonesia.com",
+    publishedTime: "2024-02-28T00:00:00Z",
+    modifiedTime: "2024-02-28T00:00:00Z",
+    section: "Contact",
+    tags: ["CV Jelita Makmur Abadi", "marine biota export", "WhatsApp contact", "Email contact", "inquiries"],
+    openGraph: {
+      title: "Contact CV Jelita Makmur Abadi - Reach Us via WhatsApp or Email",
+      description: "Contact CV Jelita Makmur Abadi for inquiries and consultations. Reach us conveniently via WhatsApp or Email to discuss your marine biota export needs.",
+      url: "https://jmaindonesia.com",
+      type: "website",
+      locale: "en_US",
+      site_name: "CV Jelita Makmur Abadi",
+      images: [
+        {
+          url: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=2755&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          alt: "Contact CV Jelita Makmur Abadi",
+          width: 1200,
+          height: 630
+        }
+      ]
+    },
+    twitter: {
+      cardType: "summary_large_image",
+      handle: "@jmaindonesia"
+    }
+  };
+  
+
 export const Contact = () => {
     const mailLink = "mailto:jmaindonesia24@gmail.com?subject=Konsultasi%20JMA%20Indonesia&body=Halo%20JMA%20Indonesia"
     const waLink = "https://api.whatsapp.com/send?phone=6282188260598&text=Hello%20JMA%20Indonesia"
