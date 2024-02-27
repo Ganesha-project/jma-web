@@ -11,7 +11,7 @@ const nunito = Nunito({
 
 export const metadata = {
   title: "JMA Indonesia",
-  description: "No 1. Seaweed Export From Indonesia",
+  description: "No 1. Seaweed and Sea Cucumber Export From Indonesia",
 };
 
 export default function RootLayout({ children }) {
