@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { RiWhatsappFill } from 'react-icons/ri';
 
 export const FloatingButton = () => {
-    const WaLink = "https://api.whatsapp.com/send?phone=628887127000&text=Halo%20Ganesha%20Consulting"
+    const WaLink = "https://api.whatsapp.com/send?phone=628887127000&text=Hello%20JMA%20Indonesia"
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
