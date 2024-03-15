@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name" : "Tax Consultant",
+        "imgUrl": "",
+        "exerpt": "Layanan Konsultasi Pajak",
+        "price": 5000000,
+        "discount": 50,
+        "originalPrice": 10000000
+    }
+]
