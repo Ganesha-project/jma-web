@@ -159,7 +159,7 @@ const ProductCard = ({ product, className = "" }) => {
             <img
                 src={product.image}
                 alt={product.alt}
-                className={`${imageClasses} min-h-[50vh] max-h-[40vh] h-full object-cover`}
+                className={`${imageClasses} md:min-h-[50vh] md:max-h-[40vh] min-h-[60vh] max-h-[60vh] h-full object-cover`}
             />
             <div className={overlayClasses}>
                 <div className="text-center p-4">
@@ -205,7 +205,7 @@ export const Products = () => {
                         colorClass={marineProducts.color}
                     />
 
-                    <div className="grid md:grid-cols-4 gap-3">
+                    <div className="flex flex-col md:grid md:grid-cols-4 gap-3">
                         <ProductCard className="aspect-square" product={marineProducts.items[0]} />
                         <ProductCard className="aspect-square" product={marineProducts.items[1]} />
                         <ProductCard className="aspect-square" product={marineProducts.items[2]} />
